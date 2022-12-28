@@ -5,6 +5,7 @@ header {
     background-color: #EDF2EC;
     max-width: 1440px;
     margin: 0 auto;
+    
 
 }
 
@@ -14,6 +15,7 @@ justify-content: space-between;
 align-items: center;
 font-family: Inika;
 padding-top: 42px;
+position: sticky;
 }
 
 .header-logo {
@@ -60,33 +62,67 @@ max-width: 1440px
 .img-main{
     width: 400px;
 }
-.header-main {
+.welcome {
     /* display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Inika;
     padding-top: 5px; */
+
+    
     background-color: #EDF2EC;
     display: flex;
     font-family: Inter;
     justify-content: space-around;
     height: 532px;
     align-items: center;
+    
     }
 .intro-t{
+/* display: flex;
 font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
+font-style: normal; */
+/* font-weight: 700; */
 font-size: 45px;
 line-height: 50px;
 color: #717171;
 
     }
     .intro-text{
-        display: flex;
+        /* display: flex;
         justify-content: space-between;
-        align-items: center;  
+        align-items: center;   */
+        width: 400px;
+    } 
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
     }
     .colortext{
         color: #499A18;
     }
+    :-webkit-any(article, aside, nav, section) h1 {
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+    }
+    p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+ margin-inline-end: 0px;
+    }
+ .welcome-text{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+    }
+ 
